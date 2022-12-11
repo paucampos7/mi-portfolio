@@ -5,6 +5,7 @@
   align-items: center;
   display: flex;
   padding: 0 15px;
+  text-align: center;
   
 }
 
@@ -22,6 +23,7 @@ ul{
     font-size: 0.8rem;
     text-transform:uppercase;
     text-decoration: none;
+    
     
     
   

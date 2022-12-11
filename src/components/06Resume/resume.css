@@ -1,5 +1,5 @@
 .resumeContainer{
-    width: 85%;
+    /* width: 85%; */
     margin:0px auto ;
     padding: 20px 20px 40px 20px;
     display: flex;
@@ -63,10 +63,14 @@
     padding: 10px 10px;
 }
 
-.rotulo h4{
+.rotulo{
     text-align: left;
     padding: 10px 10px;
+    color: var(--fm);
+    text-transform: uppercase;
 }
+
+
 
 .detalle{
     margin: 0 10px;

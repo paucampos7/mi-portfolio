@@ -21,42 +21,65 @@ const Servicios = () => {
         
         <div className="grillainterior">
             <MdDesignServices className='Icon'/>
-           <h4>diseño gráfico</h4>
+
+            <div className='internal'>
+           <h4 className='interTitle'>diseño gráfico</h4>
+           </div>
            <p className="pgrilla"> Le damos vida a tu idea buscando la síntesis perfecta para potenciar su valor. </p>
+           
+
         </div>
 
         <div className="grillainterior">
         <MdOutlineWeb  className='Icon' />
-           
-           <h4>diseño web</h4>
+
+           <div className='internal'>
+           <h4 className='interTitle'>diseño web</h4>
+           </div>
            <p className="pgrilla">Diseños atractivos que realcen el valor de tu marca, servicio o producto.</p>
+           
         </div>
 
         <div className="grillainterior">
-    <FaCode  className='Icon'  />
+         <FaCode  className='Icon'  />
            
-           <h4>desarrollo web</h4>
+         <div className='internal'>
+           <h4  className='interTitle'>desarrollo web</h4>
+        </div>
            <p className="pgrilla">Sitios webs amigables con todos los usuarios, prácticos y funcionales. </p>
+        
         </div>
    
         <div className="grillainterior">
         <BsBookmarkStarFill className='Icon'  />
-              <h4>identidad de marca</h4>
-              <p className="pgrilla"> <b> ¿La gente no te identifica? </b></p>
+        <div className='internal'>
+              <h4  className='interTitle'>identidad de marca</h4>
+              </div>
+            <div className='dolor'>
+              <p className="pdolor"> <b> ¿La gente no te identifica? </b></p>
+              </div>
               <p className="pgrilla"> Te ayudamos a incrementar la presencia de tu marca, ayornándola con elementos visuales aptos para diversos soportes. </p>
         </div>
 
         <div className="grillainterior">
         <SiWritedotas  className='Icon'  />
-              <h4>web Copywriting</h4>
-              <p className="pgrilla"> <b> ¿Tus clientes no leen tu contenido?  </b></p>
+        <div className='internal'>
+              <h4  className='interTitle'>web Copywriting</h4>
+              </div>
+              <div className='dolor'>
+              <p className="pdolor"> <b> ¿nadie se queda en tu página?  </b></p>
+              </div>
               <p className="pgrilla"> Textos poderosos, que hechizarán a todos los visitantes de tu web.</p>
         </div>
 
         <div className="grillainterior">
         <FaRegLightbulb  className='Icon'  />
-              <h4>contenido web</h4>
-              <p className="pgrilla"> <b> ¿Le falta contenido a tu sitio?</b></p>
+        <div className='internal'>
+              <h4  className='interTitle'>contenido web</h4>
+              </div>  
+              <div className='dolor'>
+              <p className="pdolor"> <b> ¿te falta contenido?</b></p>
+              </div>
               <p className="pgrilla">¡No te preocupes! Nosotros lo creamos</p>
         </div>
 

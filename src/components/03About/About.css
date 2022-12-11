@@ -1,11 +1,12 @@
 .aboutContainer{
-    width: 85%;
+    /* width: 85%; */
     margin:20px auto;
     padding: 20px 20px;
     display: flex;
     flex-direction: column;
     background-color: var(--go);
     border-bottom: 2px solid var(--fo);
+   
    
 }
 
@@ -46,18 +47,21 @@
     display: flex;
     align-items: center;
     margin: 0 auto;
+    
 }
 
 
 .hi{
-    
-    padding: 20px 20px;
+    width: 70%;
+    padding: 20px;
+    margin:0 10px;
     font-size: 1.2rem;
     line-height: 1.8 ;
     text-align: justify;
     font-family:'Montserrat', sans-serif ;
     font-weight: 100;
-    color:var(--fcc)
+    color:var(--fcc);
+   
     
 }
 
@@ -69,12 +73,19 @@
 
 }
 
-.experiencia{
+.contieneExp{
+    width: 30%;
+    padding: 10px;
+    margin:10px;
+    justify-content: center;
     
+}
+.experiencia{
+    margin:0 auto;
     border-radius:100px;
-    height: 300px;
-    width: 300px;
-    margin: 80px;
+    height: 350px;
+    width:80%;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -114,12 +125,10 @@
 
 
 table{
-    width: 100%;
     
+    width: 98%;
     justify-content:space-between;
-    padding-bottom: 20px;
-
-    
+    margin:15px auto 0;
 
 }
 

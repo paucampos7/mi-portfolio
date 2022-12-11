@@ -6,9 +6,9 @@ const Hero = () => {
     return(
         <div className='heroContainer'>
             <div className='textoYbotonHero'>
-                <h2>hola, soy freelancer</h2>
-                <h1> developer</h1>
-
+                <h2 className='herosubtitle'>hola, soy freelancer</h2>
+                
+                <h1 className='herotitle'> developer</h1>
                 <p className="lugar">en Córdoba, Argentina</p>
 
                 <div className='botoneraHero'> 
@@ -18,8 +18,9 @@ const Hero = () => {
             
             </div>
 
+            <div className='fotohero'>
             <img className='fotoPerfil' src={fotoPerfil} alt="esta soy yo" />
-
+            </div>
         </div>
     )
 }

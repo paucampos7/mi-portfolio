@@ -1,10 +1,12 @@
 .headerContainer{
-  width: 100%;
+ 
+  margin: 0 auto;
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
-  padding: 5px 55px;
+  padding: 5px 10px;
   /* border-bottom: 2px solid var(--fc); */
+  background-color:var(--go);
   
   }
 

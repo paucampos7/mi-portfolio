@@ -20,6 +20,7 @@ const About = () => {
                         <p>Nuesto lema es entregar el trabajo en tiempo y forma, respetando el presupuesto y requerimientos de nuestros clientes.</p>
                     </div>
 
+<div className='contieneExp'>
                     <div className="experiencia">
                     
                         <div>
@@ -28,6 +29,7 @@ const About = () => {
                     
                         <div className="anios"><p>Años de <b className='exp'>Experiencia</b></p></div>
                     
+                    </div>
                     </div>
                  </div>
 

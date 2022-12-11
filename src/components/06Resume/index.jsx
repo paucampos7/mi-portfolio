@@ -20,8 +20,8 @@ const Resume = () => {
 
     <div className="educacion">
 
-    <div className="rotulo">
-    <h4>mi educación</h4>
+    <div>
+    <h4 className="rotulo">mi educación</h4>
     <div/>
 
             <div className="detalle">
@@ -91,7 +91,7 @@ const Resume = () => {
     <div className="experienciab">
 
 <div className="rotulo">
-    <h4>mi experiencia</h4>
+    <h4 >mi experiencia</h4>
 </div>
 
 <div className="detalle">

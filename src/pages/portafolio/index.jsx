@@ -16,7 +16,7 @@ const Portafolio = () => {
         <h1 className='tituloPortafolio'>portafolio</h1>
        <p className='subtitle'>Recopilación de trabajos realizados</p>
 
-       <p className='intro'>Al recorrer esta página, podrás comprender mejor cuáles son los servicios que ofrecemos y analizar si tenemos lo que estás buscando. Explora con detalle, y si tienes alguna inquietud puedes dejarnos tu consulta <a className='adress' href="/contacto"> aquí.</a></p>
+       <p className='intro'>Al recorrer esta página, podrás comprender mejor cuáles son los servicios que ofrecemos y analizar si tenemos lo que estás buscando. Explora con detalle, y si tienes alguna inquietud puedes dejarnos tu  <a className='adress' href="/contacto"> consulta aquí.</a></p>
         
 
         </div>
@@ -25,13 +25,13 @@ const Portafolio = () => {
             
             <div className='txt'>
             <p><b>Envasadoras al Vacío</b></p>
-            <p>Envasadoras al Vacío, es uno de los primeros sitios webs que he diseñado.
-            Se trata de una página vertical, con contenido de nicho. La misma fue desarrollada a través de una plataforma con plantillas prediseñadas. 
+            <p>Envasadoras al Vacío, es uno de los primeros sitios webs con los que trabajé.
+            Se trata de una página vertical, con amplio contenido de nicho. La misma fue desarrollada a través de una plataforma con plantillas prediseñadas. 
             Este ejemplo demuestra que se pueden realizar sitios webs funcionales que, con contenido de calidad y una buena estrategia SEO, pueden avanzar casilleros cuando lo que se busca es un buen posicionamiento.
             Al mismo tiempo, son notables las limitaciones que tiene el uso de plantillas prediseñadas frente a el enorme abanico de opciones que ofrece el diseño y desarrollo web desde cero.</p>
 
             <p><b>Algunos servicios destacados de este trabajo fueron:</b></p>
-            <p>Diseño de identidad Visual, Creación de contenido, Creación de canal de YouTube</p>
+            <p>Análisis de palabras clave, Creación de contenido textual enriquecido con imágenes y videos de alta calidad, Diseño de identidad Visual. Además, tuvimos la oportunidad de crear un de canal de YouTube con el fin de aumentar las posibilidades de posicionamiento.</p>
             
 
             <p>Si quieres visitar este sitio, te invito a que ingreses al siguiente link: <a className='adress' href="https://www.envasadoralvacio.com/">Envasadoras al Vacio</a></p>

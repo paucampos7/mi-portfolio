@@ -8,7 +8,7 @@ const Formulario = () => {
 
 <div className='formulario'>
     <h3 className='quieres'>¿Quieres un presupuesto?</h3>
-
+ 
     <form action="">
                 
     <label>Ingresa tu Nombre:</label>
@@ -18,12 +18,12 @@ const Formulario = () => {
     <input type="e-mail" name='e-mail' required/>
 
     <label> ¿Cómo puedo ayudarte?</label>
-    <textarea name="Comentario"></textarea>
+    <textarea name="Comentario"> Escribe aquí tu consulta</textarea>
 
     <button className="enviar" type="submit">Enviar</button>
 
     </form>
-
+    
 </div>
 
     )

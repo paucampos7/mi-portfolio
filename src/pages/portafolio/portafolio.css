@@ -1,13 +1,17 @@
 .portafolioContainer{
-    width: 85%;
+    /* width: 85%; */
     margin:20px auto 0;
     font-family: 'Montserrat';
     text-align: center;
     padding: 20px 0;
 }
 
- .tituloPortafolio h1{
-    font-size: 2rem;
+ .tituloPortafolio{
+    font-size: 4rem;
+    font-family:'Montserrat' ;
+    text-transform: uppercase;
+    color:rgb(255, 255, 255); 
+    text-shadow: 0 0 30px var(--fm);
  }
 
  .galeriaEav{
@@ -19,8 +23,7 @@
     flex-wrap: wrap;
     overflow: hidden;
     background-color: white;
-   
-   
+
   
 }
 .eavgallery{
@@ -44,7 +47,7 @@
 
 .logoeav{
 
-    width: 25%;
+    width: 33%;
 }
 .txt{
     margin-right: 20px;
@@ -54,17 +57,17 @@
 
 }
 b{
-    color: var(--fo)
+    color: var(--fm)
 }
 .adress{
 
     text-decoration: none;
-    color:var(--fo);
+    color:var(--fm);
     font-weight: 600;
     
 }
 .adress:hover{
-    color:var(--fm);
+    color:var(--fc);
 
 }
 
