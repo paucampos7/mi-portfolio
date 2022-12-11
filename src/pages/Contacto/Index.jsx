@@ -7,7 +7,7 @@ const ContactoPage = () => {
     return(
     <div>
 
-        
+<h1 className='tituloContact'>contacto</h1>
         <Contacto/>
         
        

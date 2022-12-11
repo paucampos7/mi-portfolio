@@ -45,3 +45,17 @@
     color: var(--fm);
    
 }
+
+.volverinicio{
+    margin-top: 60px;
+}
+
+.volverinicio a{
+    
+    text-decoration: none;
+    color:var(--fo)
+}
+
+.volverinicio a:hover{
+  color:var(--fm);
+}

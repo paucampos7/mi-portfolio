@@ -3,8 +3,7 @@ import './Faq.css'
 const Faq = () => {
     return(
 <div className='faqContainer'>
- <h2 className='faqTitle'>Preguntas Frecuentes</h2>
-
+ <h1 className='tituloContact'>preguntas frecuentes</h1>
 
  <div class="accordion" id="accordionExample">
 

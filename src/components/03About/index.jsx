@@ -14,10 +14,11 @@ const About = () => {
 
             <div className="mepresento">
                     <div className="hi">
-                        <p >Hola, soy <b className="nombre">Paula Campos</b></p> 
-                        <p>Soy diseñadora y desarrolladora apasionada por el diseño web. Disfruto desarrollar sitios webs simples, limpios y elegantes que brinden valor real a usuario final.</p>
-                        <p>Miles de clientes recibieron resultados excepcionales trabajando a mi lado.</p>
-                        <p>Nuesto lema es entregar el trabajo en tiempo y forma, respetando el presupuesto y requerimientos de nuestros clientes.</p>
+                        <p >Hola, mi nombre es <b className="nombre">Paula Campos</b></p>
+                        <p>Soy diseñadora apasionada por el desarrollo y diseño web. Amo la dinámica de cada trabajo, en el que busco con diversos recursos solucionar las necesidades y deseos de mis clientes.</p>
+                        <p>A demás del diseño, la calidad del contenido es vital para que un sitio web no solo sea atractivo, sino también interesante para el usuario. </p>
+                        <p>Quienes eligieron mi servicio cuentan hoy con una plataforma funcional que los identifica y rinde sus beneficios.</p>
+                        <p>Mi lema es entregar el trabajo en tiempo y forma, respetando el presupuesto y requerimientos de mis clientes.</p>
                     </div>
 
 <div className='contieneExp'>

@@ -11,20 +11,22 @@ import { Contratame } from '../09Contratame';
 import { Contacto } from '../10Contacto';
 
 
+
 const Main = () => {
     return(
         <div className='container'>
         <Hero/>
+        
         <About/>
     
         <Servicios/>
-        <Resume/>
-        <Skills/>
+        {/* <Resume/> */}
+        {/* <Skills/> */}
         <Portfolio/>
         <Contratame/>
         {/* <Contacto/> */}
-
-
+        
+        
 
         </div>
     )
