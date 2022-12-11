@@ -1,0 +1,34 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Montserrat:wght@300;400;500;600;700;800&family=Neonderthaw&family=Oooh+Baby&family=Poppins:ital,wght@0,100;0,200;0,600;0,800;1,400&display=swap');
+
+/*
+font-family: 'Cedarville Cursive', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Neonderthaw', cursive;
+font-family: 'Oooh Baby', cursive;
+font-family: 'Poppins', sans-serif; 
+*/
+
+*{
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    
+  }
+
+  :root{
+    --fcc: rgb(254, 231, 252);
+    --fc: rgb(252, 171, 242);
+    --fm: rgb(255, 41, 227);
+    --fo: rgb(166, 22, 147);
+    --go: rgb(10, 10, 10);
+    --gm: rgb(133, 143, 165);
+    --gc: rgb(241, 245, 253);
+}
+
+body{
+  /* width:100%; */
+  background-color:var(--go);
+}
+

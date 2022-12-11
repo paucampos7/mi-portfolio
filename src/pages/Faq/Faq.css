@@ -1,0 +1,33 @@
+.faqContainer{
+    width: 85%;
+    margin:20px auto;
+    text-align: left;
+    background-color:var(--go);
+    padding: 20px 20px;
+    border-bottom: 2px solid var(--fm);
+}
+
+.maspreguntas{
+   
+    
+    text-align: center;
+    padding: 30px 0;
+    
+}
+
+.pregunta{
+  padding: 5px 7px;;
+  background-color: var(--go);
+  border-radius: 10px;
+  border-color: transparent;
+  box-shadow: 0 0 10px var(--fm);
+  color: white;
+  font-weight: 600;
+  font-size: 1.5rem;
+    
+}
+
+.pregunta:hover{
+    background-color: var(--fm)
+      
+  }

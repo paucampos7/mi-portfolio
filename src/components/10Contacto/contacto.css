@@ -1,0 +1,63 @@
+.contactoContainer{
+    margin: 0 auto;
+    padding: 30px 100px;
+    background-color: var(--fo);
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    font-family: 'Montserrat';
+}
+
+.hablemos {
+  font-family:'Cedarville Cursive', cursive;
+  font-size: 2rem;
+  color: var(--fc);
+  text-shadow: 1px 1px 1px var(--go);
+}
+
+.icono{
+    padding:5px;
+    color: var(--fc);
+  }
+
+.icono:hover{
+    color:var(--fm)
+  }
+
+
+  .getintouch{
+    padding:30px 20px;
+    
+  }
+
+  .getintouch p{
+
+    padding: 10px 0;
+  }
+
+  .pgrillaPongamonos{
+    color:var(--gc)
+  }
+
+  .tgrilla{
+    color:var(--fc)
+  }
+
+  .volver{
+    background-color:var(--fo);
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .volver a{
+   
+    text-decoration: none;
+    color:var(--fcc);
+    text-align:center;
+    font-size: 2rem;
+   
+}
+.volver a:hover{
+  color:var(--go);
+
+
+}

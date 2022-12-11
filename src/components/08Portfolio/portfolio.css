@@ -1,0 +1,36 @@
+.portfolioContainer{
+    width: 100%;
+    margin: 20px auto;
+    padding: 30px 20px;
+    
+}
+
+.linkytitulo{
+    text-align: center;
+    padding:30px 0;
+    background-color:var(--go);
+}
+
+.link{
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color:var(--fo);
+    text-transform: capitalize;
+    font-family: 'Cedarville Cursive', cursive;
+}
+
+.link:hover{
+    color:var(--fm); 
+}
+
+.subtitulo{
+    color: white;
+    text-shadow: 0px 0px 5px var(--fm) ;
+    text-align: center;
+    font-family:'Montserrat', sans-serif ;
+    text-transform:capitalize;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+

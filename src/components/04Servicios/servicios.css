@@ -1,0 +1,85 @@
+.serviciosContainer{
+    width: 85%;
+    margin:20px auto 0;
+    padding: 20px 20px 40px 20px;
+    display: flex;
+    flex-direction: column;
+    background-color:var(--gc);
+    
+}
+
+.linkytituloServicios{
+    text-align: center;
+    padding:30px 0;
+
+}
+
+.linkServicios{
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color:var(--fo);
+    text-transform: capitalize;
+    font-family: 'Cedarville Cursive', cursive;
+}
+
+.linkServicios:hover{
+    color:var(--fm); 
+}
+
+.subtituloServicios{
+    color:var(--fo);
+    text-shadow: 0px 0px 5px var(--fc) ;
+    text-align: center;
+    font-family:'Montserrat', sans-serif ;
+    text-transform:uppercase;
+    font-size: 1.5rem;
+}
+
+
+
+
+.grilla{
+    
+    display: flex;
+    margin-top: 0 auto;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+    font-family: 'Montserrat';
+    
+    
+}
+
+
+.pgrilla{
+    color:var(--go)
+}
+.grillainterior{
+    width: 30%;
+    text-align: center;
+    padding: 30px;
+    
+}
+b{
+    color: var(--gm);
+}
+
+h4{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 5px;
+    color: var(--fm);
+    
+    height: 65px;
+}
+
+.Icon{
+    color: var(--fo);
+    font-size: 3rem;
+    padding: 10px 0;
+    
+}
+.Icon:hover{
+    color:var(--fm)
+}

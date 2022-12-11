@@ -1,0 +1,83 @@
+.portafolioContainer{
+    width: 85%;
+    margin:20px auto 0;
+    font-family: 'Montserrat';
+    text-align: center;
+    padding: 20px 0;
+}
+
+ .tituloPortafolio h1{
+    font-size: 2rem;
+ }
+
+ .galeriaEav{
+    width:100%;
+    display: flex;
+    margin: 0px auto;
+    padding:40px 0;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+    background-color: white;
+   
+   
+  
+}
+.eavgallery{
+    width: 20%;
+    object-fit: cover;
+    margin: 10px 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.galeriaEav :hover  {
+    transform: scale(1.35);
+}
+
+.textoGaleriaEav{
+    background-color:white;
+    display: flex;
+    padding:20px;
+
+}
+
+.logoeav{
+
+    width: 25%;
+}
+.txt{
+    margin-right: 20px;
+    text-align: left;
+    width: auto;
+    
+
+}
+b{
+    color: var(--fo)
+}
+.adress{
+
+    text-decoration: none;
+    color:var(--fo);
+    font-weight: 600;
+    
+}
+.adress:hover{
+    color:var(--fm);
+
+}
+
+.ultimosTrabajos{
+    padding: 30px 0;
+
+}
+.subtitle{
+font-family: 'Cedarville Cursive', cursive;
+color: var(--fm);
+font-size: 2rem;
+}
+.intro{
+ color: white;
+
+}

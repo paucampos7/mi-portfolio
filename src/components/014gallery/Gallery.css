@@ -1,0 +1,28 @@
+/* @import "~react-image-gallery/styles/css/image-gallery.css"; */
+
+.gallery{
+    width:90%;
+    display: flex;
+    margin: 0px auto;
+    padding:15px 0;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+   
+  
+}
+.foto{
+    width: 30%;
+    object-fit: cover;
+    margin: 10px 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.gallery :hover  {
+    transform: scale(1.1);
+}
+
+
+
+

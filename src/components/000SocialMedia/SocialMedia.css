@@ -1,0 +1,13 @@
+
+.socialmedia{
+    display: flex;
+    flex-direction: column; 
+  }
+
+.icono{
+    color: var(--fc);
+  }
+
+.icono:hover{
+    color:var(--fm)
+  }

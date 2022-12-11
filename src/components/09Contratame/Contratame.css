@@ -1,0 +1,47 @@
+.contratameContainer{
+    margin: 0 auto;
+    padding: 30px 20px;
+    background-color: var(--go);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.interesado{
+    color: white;
+    text-shadow: 0px 0px 5px var(--fm) ;
+    text-align: center;
+    font-family:'Montserrat', sans-serif ;
+    text-transform:capitalize;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+
+.contratame{
+
+    margin-top: 40px;
+    cursor: pointer;
+
+    padding:0 5px;
+
+   
+    background-color: var(--fm);
+    color: white;
+    border: 1px solid var(--fm);
+    border-radius: 5px;
+  
+    text-align: center;
+    font-family: 'Montserrat' ;
+    font-size: 1.25rem;
+    padding: 5px 10px;
+    font-weight: 600;
+    box-shadow: 0 0 10px var(--fm);
+  
+}
+
+.contratame:hover{
+    background-color:var(--gc);
+    color: var(--fm);
+   
+}

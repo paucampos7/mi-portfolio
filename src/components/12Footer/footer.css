@@ -1,0 +1,24 @@
+.footerContainer{
+    width: 100%;
+    margin:0 auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 20px 0px;
+    background-color:var(--go);
+    
+    }
+
+
+.foot{
+    width: 85%;
+    height: 25px;
+    color:var(--fcc);
+    font-size: 0.5rem;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+}
+.linksimple{
+    color:var(--fc)
+}

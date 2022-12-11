@@ -1,0 +1,18 @@
+import React from 'react';
+import './Contratame.css'
+
+const Contratame = () => {
+    return(
+     <div className='contratameContainer'>
+            
+    <div className="linkytitulo">
+        <h3 className="interesado">¿te interesa trabajar conmigo?</h3>
+        <a href="/contacto"><button className="contratame"> ¡Contratame!</button></a>
+        
+    </div>
+           
+ </div>
+    )
+}
+
+export { Contratame }
