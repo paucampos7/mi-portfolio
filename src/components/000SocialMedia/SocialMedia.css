@@ -2,6 +2,7 @@
 .socialmedia{
     display: flex;
     flex-direction: column; 
+   
   }
 
 .icono{

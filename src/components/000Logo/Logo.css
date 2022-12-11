@@ -1,7 +1,14 @@
-.logoContainer{
-  width: 20%;
-  
-}
+/* .logo{
+  width: 200px;
+} */
+
 .logo{
-  width: 100%;
+  width: 45%;
 }
+
+.logoContainer{
+
+  width: 46% ;
+}
+
+

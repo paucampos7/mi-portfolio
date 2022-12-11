@@ -12,9 +12,11 @@ const Header = () => {
     return(
         <div id='head' className='headerContainer'>
            
+           
             <Logo/>
             <Navbar/>
             <SocialMedia/>
+            
             
 
         </div>

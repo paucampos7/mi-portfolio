@@ -3,15 +3,17 @@
 }
 
 .navContainer{
-  
-  align-items:center;
-  
+ 
+display: flex;
+padding-bottom: 3px;
+
+
 }
 
 ul{
+ 
   margin:0 auto;
   display:flex;
-  justify-content:space-between;
  
 }
 
@@ -24,7 +26,7 @@ ul{
     font-size: 0.8rem;
     text-transform:uppercase;
     text-decoration: none;
-    
+   
   }
 
   
