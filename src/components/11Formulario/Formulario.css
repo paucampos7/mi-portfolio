@@ -70,4 +70,11 @@ textarea{
     
 }
 
+.comentario{
+    color:var(--gc)
+}
+.comentario:hover{
+    color:var(--go)
+}
+
 

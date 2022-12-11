@@ -1,21 +1,22 @@
+*{
+  list-style-type: none;
+}
+
 .navContainer{
-  width: 100%;
   
-  justify-content: flex-end;
-  align-items: center;
-  display: flex;
-  padding: 0 15px;
-  text-align: center;
+  align-items:center;
   
 }
 
-
 ul{
+  margin:0 auto;
   display:flex;
+  justify-content:space-between;
+ 
 }
 
 .menu{ 
-  
+   
     color:white;
     margin: 0 8px;
     font-family: 'Montserrat';
@@ -24,11 +25,9 @@ ul{
     text-transform:uppercase;
     text-decoration: none;
     
-    
-    
-  
   }
 
+  
 
 .menu:hover{
     color:var(--fc);

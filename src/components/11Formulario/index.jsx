@@ -18,7 +18,7 @@ const Formulario = () => {
     <input type="e-mail" name='e-mail' required/>
 
     <label> ¿Cómo puedo ayudarte?</label>
-    <textarea name="Comentario"> Escribe aquí tu consulta</textarea>
+    <textarea className='comentario' name="Comentario"> Escribe aquí tu consulta</textarea>
 
     <button className="enviar" type="submit">Enviar</button>
 
