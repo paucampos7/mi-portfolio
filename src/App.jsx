@@ -2,7 +2,7 @@ import { useState } from 'react'
 
 import './App.css'
 import { Header} from './components/01Header/index'
-import { Main } from './components/13Main/index'
+
 import { Footer} from './components/12Footer/index'
 
 import {BrowserRouter,Routes, Route,} from 'react-router-dom'
@@ -21,7 +21,7 @@ function App() {
   <BrowserRouter>
 
      <Header/>
-     
+
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/AboutPage' element={<AboutPage/>} />
