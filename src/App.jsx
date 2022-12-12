@@ -5,15 +5,9 @@ import { Header} from './components/01Header/index'
 import { Main } from './components/13Main/index'
 import { Footer} from './components/12Footer/index'
 
-import { Portafolio } from './pages/portafolio/index'
-import { Faq } from './pages/Faq/index'
-import { ContactoPage } from './pages/Contacto/Index'
-import { ServiciosPage } from './pages/Servicios'
-import { AboutPage } from './pages/About'
-import { ResumePage } from './pages/Resume'
-
 import {BrowserRouter,Routes, Route,} from 'react-router-dom'
 
+import { Home,AboutPage,ServiciosPage,Portafolio, Faq, ContactoPage,Error404 } from './pages/index' 
 
 
 
@@ -25,30 +19,21 @@ function App() {
        
       
   <BrowserRouter>
+
      <Header/>
-    
+     
       <Routes>
-        <Route path='/' element={<Main/>} />
-
+        <Route path='/' element={<Home/>} />
         <Route path='/AboutPage' element={<AboutPage/>} />
-
-        {/* <Route path='/ResumePage' element={<ResumePage/>} /> */}
-
         <Route path='/serviciosPage' element={<ServiciosPage/>}/>
-
         <Route path='/portafolio' element={<Portafolio/>}/> 
-
         <Route path='/faq' element={<Faq/>}/>
-
         <Route path='/contacto' element={<ContactoPage/>}/>
-          
-
+        <Route path='*' element={<Error404/>}/>
       </Routes>
 
   </BrowserRouter>
  
-
-      
   <Footer/>
     </div>
   )
