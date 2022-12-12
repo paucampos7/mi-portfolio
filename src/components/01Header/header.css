@@ -1,5 +1,5 @@
 .headerContainer{
- width: 100%;
+  width: 100%;
   margin: 0 auto;
   display: flex;
   align-items: flex-end;
@@ -9,27 +9,17 @@
   
   }
 
-  /* .lgheader{
-    width: auto;
-    background-color: brown;
-   
-
-  }
-  .nbheader{
-    background-color: rgb(98, 0, 255);
-
-  }
-  .smheader{
-    background-color: blueviolet;
-
-  }
-
-  .doble{
-    width: 800px;
-    background-color: rgb(255, 0, 153);
-    display: flex;
-    align-items: flex-end;
-  } */
   
+
+
+  @media(max-width:450px){
+    .headerContainer{
+      width: 94%;
+    }
+
+    
+  }
+
+
 
   

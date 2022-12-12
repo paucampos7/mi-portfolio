@@ -12,3 +12,10 @@
 .icono:hover{
     color:var(--fm)
   }
+
+
+  @media (max-width:450px){
+    .socialmedia{
+      display:none;
+    }
+  }

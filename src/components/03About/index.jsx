@@ -19,19 +19,21 @@ const About = () => {
                         <p>A demás del diseño, la calidad del contenido es vital para que un sitio web no solo sea atractivo, sino también interesante para el usuario. </p>
                         <p>Quienes eligieron mi servicio cuentan hoy con una plataforma funcional que los identifica y rinde sus beneficios.</p>
                         <p>Mi lema es entregar el trabajo en tiempo y forma, respetando el presupuesto y requerimientos de mis clientes.</p>
+
                     </div>
 
-<div className='contieneExp'>
+
                     <div className="experiencia">
                     
                         <div>
                         <p className="veintidos">18</p>
                         </div>
                     
-                        <div className="anios"><p>Años de <b className='exp'>Experiencia</b></p></div>
+                        <div className="anios"><p>Años de <b className='exp'>Experiencia</b></p>
+                        </div>
                     
                     </div>
-                    </div>
+      
                  </div>
 
     

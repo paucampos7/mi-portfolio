@@ -1,13 +1,14 @@
 /* @import "~react-image-gallery/styles/css/image-gallery.css"; */
 
 .gallery{
-    width:90%;
+    width:100%;
     display: flex;
     margin: 0px auto;
     padding:15px 0;
     justify-content: center;
     flex-wrap: wrap;
     overflow: hidden;
+    background-color: blueviolet;
    
   
 }
@@ -24,5 +25,18 @@
 }
 
 
+
+
+@media (max-width:450px){
+    .gallery{
+        flex-direction: column;
+        
+    }
+    .foto{
+
+        width: 70%;
+        margin: 20px auto;
+    }
+}
 
 

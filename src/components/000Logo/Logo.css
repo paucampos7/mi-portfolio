@@ -12,3 +12,11 @@
 }
 
 
+@media(max-width:450px){
+
+  .logoContainer{
+    width: 80%;
+    margin-left: 20px;
+    
+  }
+}

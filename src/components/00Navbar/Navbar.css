@@ -30,8 +30,26 @@ ul{
   }
 
   
-
 .menu:hover{
     color:var(--fc);
   }
 
+  .hamburguesa{
+    color:var(--fm);
+    font-size: 2rem;
+    margin-right: 20px;
+  }
+  .hamburguesa:hover{
+    color:var(--fcc);
+    
+  }
+
+
+@media(max-width:450px){
+
+  .menu { display:none;}
+
+}
+      
+    
+    

@@ -18,9 +18,9 @@ const Hero = () => {
             
             </div>
 
-            <div className='fotohero'>
+            
             <img className='fotoPerfil' src={fotoPerfil} alt="esta soy yo" />
-            </div>
+            
         </div>
     )
 }
