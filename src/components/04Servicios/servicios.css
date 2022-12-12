@@ -107,6 +107,9 @@ b{
     color:var(--fm)
 }
 
+
+
+
 @media(max-width:450px){
     .grilla{
         flex-direction: column;
@@ -117,9 +120,25 @@ b{
         width: 100%;
         margin: 10px 0px;
     }
-    
+
     .dolor{
         height: 30px;
     }
     
+}
+
+
+@media (min-width:451px) and (max-width:767px){
+
+   
+    .grillainterior{
+        width: 45%;
+        margin: 10px 0px;
+    }
+
+    .dolor{
+        height: 50px;
+        
+    }
+
 }

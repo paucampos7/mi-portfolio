@@ -16,7 +16,7 @@ const Contacto = () => {
     <div className="getintouch">
 
         <h3 className="hablemos">Hablemos</h3>
-        <p className="pgrillaPongamonos">
+        <p className="pgrillaPongamonos1">
         
         Participar en nuevos proyectos me apasiona, así que siéntete libre de compartirme tu plan.
         Los detalles son importantes por lo que recomiendo que tengas la mayor cantidad de información a mano, así podremos aprovechar al máximo nuestra primera reunión.
@@ -43,7 +43,7 @@ const Contacto = () => {
     
     </div>
 
-    <div className='volver'><a href="/"><BsFillArrowUpCircleFill/></a></div>
+    {/* <div className='volver'><a href="/"><BsFillArrowUpCircleFill/></a></div> */}
 
 </div>
     )

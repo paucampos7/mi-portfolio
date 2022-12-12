@@ -40,3 +40,15 @@
 }
 
 
+
+@media (min-width:451px) and (max-width:767px){
+
+    .foto{
+
+        width: 45%;
+        margin: 10px auto;
+    }
+
+
+}
+

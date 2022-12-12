@@ -39,6 +39,14 @@
     padding: 10px 0;
   }
 
+  .pgrillaPongamonos1{
+    color:var(--gc);
+    text-align: justify;
+    
+  }
+
+
+
   .pgrillaPongamonos{
     color:var(--gc)
   }
@@ -65,4 +73,30 @@
   color:var(--go);
 
 
+}
+
+@media (max-width:768px){
+
+  .contactoContainer{
+
+    flex-direction: column;
+    background-color: var(--go);
+    
+  }
+
+  .getintouch{
+    width: 100%;
+    background-color: var(--go);
+    
+  }
+
+  .hablemos{
+    text-align: center;
+  }
+
+  .pgrillaPongamonos1{
+    text-align: justify;
+  }
+
+  
 }

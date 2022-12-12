@@ -22,3 +22,16 @@
 .linksimple{
     color:var(--fc)
 }
+
+
+
+
+
+
+@media (min-width:451px) and (max-width:767px){
+    .footerContainer{
+      width: 95%;
+    }
+
+
+  }

@@ -11,9 +11,8 @@ const Navbar = () => {
         <li><NavLink className='menu' to= '/'>home</NavLink></li>
                     
                   
-        <li><NavLink className='menu' to='AboutPage'>sobre mi</NavLink></li>
-
-                  
+        <li><NavLink className='menu' to='AboutPage'>conoceme</NavLink></li>
+  
 
         <li><NavLink className='menu' to='serviciosPage'>servicios</NavLink></li>
 

@@ -83,16 +83,21 @@ p.lugar{
 
 
 
+/* responsive celualar mas-width:450px*/
 
  @media (max-width:450px) {
-    .herotitle{ font-size: 3rem;
+    .herotitle{ 
+        font-size: 2.3rem;
         text-align: center;
     }
-    
-    .herosubtitle{font-size: 1rem;
+
+    .herosubtitle{
+        font-size: 1rem;
         text-align: center;
 
     }
+
+    p.lugar{ font-size: 1rem;}
     
     .heroContainer{ flex-direction: column;
         margin:0 auto;
@@ -111,3 +116,54 @@ p.lugar{
    
     } 
 
+/* responsive tablet max-width:767px*/
+    
+@media (min-width:451px) and (max-width:767px) {
+
+    .herotitle{ 
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .herosubtitle{
+        font-size: 1rem;
+        text-align: center;
+
+    }
+
+    p.lugar{ font-size: 1rem;}
+    
+    .heroContainer{ flex-direction: column;
+        margin:0 auto;
+        padding: 10px 0;
+        justify-content: center;
+    }
+    
+    .textoYbotonHero{
+        width: 100%;
+        text-align: center;
+
+    }
+
+     .botoneraHero{ display:none}
+
+   
+    } 
+
+
+
+
+@media (min-width:768px) and (max-width:992px) {
+
+    .herotitle{ font-size: 3.5rem;
+        
+    }
+
+    .herosubtitle{font-size: 1.25rem;
+
+    }
+    
+
+    }
+
+     

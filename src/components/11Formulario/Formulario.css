@@ -8,8 +8,7 @@
 }
 
 .quieres{
-    color:var(--fcc)
-   
+    color:var(--fcc);
     
 }
 
@@ -77,4 +76,19 @@ textarea{
     color:var(--go)
 }
 
+@media (max-width:767px){
+    .formulario{
+        width: 100%;
+        margin:0 auto;
+       
+       
+    }
+
+    .quieres{
+        text-align: center;
+        
+    }
+    
+    
+}
 

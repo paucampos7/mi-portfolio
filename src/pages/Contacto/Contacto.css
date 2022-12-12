@@ -9,3 +9,10 @@
     
     padding-top: 20px;
  }
+
+
+ @media (max-width:450px){
+    .tituloContact{
+     font-size: 3rem;
+    }
+ }

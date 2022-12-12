@@ -8,6 +8,7 @@ display: flex;
 padding-bottom: 3px;
 
 
+
 }
 
 ul{
@@ -23,7 +24,7 @@ ul{
     margin: 0 8px;
     font-family: 'Montserrat';
     font-weight: 400;
-    font-size: 0.8rem;
+    font-size: 1rem;
     text-transform:uppercase;
     text-decoration: none;
    
@@ -45,11 +46,27 @@ ul{
   }
 
 
-@media(max-width:450px){
+@media(max-width:767px){
 
   .menu { display:none;}
 
 }
-      
+
+@media(min-width:768px){
+
+  .hamburguesa{display:none}
+}
+
+
+@media (min-width:768px) and (max-width:992px){
+
+  .menu{
+    font-size: 0.8rem;
+    
+  }
+
+
+}
+
     
     
