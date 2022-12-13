@@ -6,6 +6,10 @@ https://user-images.githubusercontent.com/114040021/207205549-77b373bb-d1bd-4905
 
 Este proyecto es un portafolio por lo que gran parte del contenido está vinculado al aspecto profesional de la persona. Se resalta sobre todo su experiencia, sus trabajos y presenta posibilidades de contactarse desde diferentes secciones del sitio.
 
+
+https://user-images.githubusercontent.com/114040021/207415372-51397a2e-e63d-4619-a07a-a1b42620aaee.mp4
+
+
 Todos los componentes y páginas fueron creados en **Visual Studio Code con React Vite**, por lo que en su mayoría son *.jsx*.  Algunos componentes, como el acordeón desplegable de la página de preguntas frecuentes, es originario de **Bootstrap**, y para los íconos utilicé **React-Icons**.
 Por su parte, hay efectos realizados con **Framer Motion** en la sección Hero y en la galería se hicieron con **CSS**.
 
